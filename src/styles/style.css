@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.navbar .navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.navbar-nav{
+    align-items: center;
+}
+
+header , .hero-section{
+    background-color: blue;
+}
+
+.btn-first{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+   text-decoration: none;
+    border-radius: 8px;
+}
+
+
+/* Hero Section  */
+.btn-second{
+    background-color: #50e3ae;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.btn-second:hover{
+    background-color: red;
+    transition: 0.5s;
+    color: white;
+}
+
+
+.hero-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.hero-section h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-section p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width : 768px) {
+   
+    .hero-container{
+        display: flex;
+        flex-direction: row;
+        row-gap: 80px;
+        text-align: center;
+        
+    }
+    
+}
+    
+
+.hero-right>img{
+    object-fit: cover;
+    
+}
+
+
+/* About Section */
+.about-section{
+    margin-top: 60px;
+}
